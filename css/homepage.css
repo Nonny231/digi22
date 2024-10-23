@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+}
+.rounded-3{
+    border-radius: var(--bs-border-radius-lg);
+}
+.p-5{
+    padding: 0px !important;
+}
+nav a{
+    --bs-nav-link-color: white !important;
+}
+.align-left{
+    text-align: left !important;
+}
+.row>*{
+    margin-top: 0px !important;
+}
+.reduce-font{
+    font-size: small;
+    color: white;
+}
+.margin-down{
+    margin-top: 100px;
+}
+.img-thumbnail{
+    width: 300px;
+    margin-top: 50px;
+}
+.container .stat{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: darkgreen;
+}
+.container .stories{
+    margin-top: 50px;
+    text-align: center;
+}
+.container .row .card-title{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    /* line-height: 2rem; */
+}
+.container .row .card-text{
+    line-height: 1rem;
+    font-size: 10px;
+    
+}
+.container .row button{
+    width: 100%;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+     padding: 20px 0;
+    color: white;
+ }
+ input{
+    width: 200px !important;
+ }
+
+ i:nth-of-type(1){
+    padding-left: 0 !important;
+ }
+
+ i{
+    padding-left: 10px;
+ }
+ .container-fluid{
+    margin-top: 30px !important;
+ }
+ .container-fluid .container{
+    margin-top: 30px;
+ }
+ .container-fluid .row .col a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+ }
+ .container-fluid .row .col a:nth-of-type(1){
+    padding-left: 0;
+ }
+ .container-fluid .row .footer-link{
+    margin-top: 10px;
+ }
+
+ .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+/* .container-fluid .row img{ */
+    /* width: 100px; */
+/* } */
+/* .footer-links a {
+    color: white;
+    /* margin: 0 15px; */
+
+/* .social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+} */
+/* .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+} */
+/* .growth{
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    background-color: rgb(191, 186, 186);
+    padding: 15px;
+} */
